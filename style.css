@@ -1,50 +1,23 @@
-.wrap{
-    height: 500px;
-    background-color: coral;
-    animation:changeBackground 5s infinite;
-    
+body {
+    margin: 0;
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    color: #222222;
+    background: linear-gradient(yellow, coral);
 }
 
-@keyframes changeBackground {
-    0%{
-        background: radial-gradient(red,coral);
-    }
-
-    50%{
-        background: radial-gradient(blue,violet);
-    }
-
-    100% {
-        background: radial-gradient(red,coral);
-    }
+.wrapper {
+    min-height: 100vh;
+    width: 960px;
+    max-width: 100%;
+    padding: 50px;
+    margin: 0 auto;
+    text-align: center;
 }
 
-.linkgoogle{
-
-    color: greenyellow;
-    animation:changeLinkColor 5s infinite;
-    
-}
-
-@keyframes changeLinkColor {
-    0%{
-        color: greenyellow;
-    }
-
-    50%{
-        color: whitesmoke; 
-    }
-
-    100% {
-        color: greenyellow;
-    }
-}
-
-.animal-image {
+.avatar {
+    border-radius: 15px;
     width: 300px;
-    border-radius: 50%;
-    transition: transform s;
-}
-.animal-image:hover{
-    transform: rotateY(360deg);
+    max-width: 100%;
 }
