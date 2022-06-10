@@ -1,0 +1,50 @@
+.wrap{
+    height: 500px;
+    background-color: coral;
+    animation:changeBackground 5s infinite;
+    
+}
+
+@keyframes changeBackground {
+    0%{
+        background: radial-gradient(red,coral);
+    }
+
+    50%{
+        background: radial-gradient(blue,violet);
+    }
+
+    100% {
+        background: radial-gradient(red,coral);
+    }
+}
+
+.linkgoogle{
+
+    color: greenyellow;
+    animation:changeLinkColor 5s infinite;
+    
+}
+
+@keyframes changeLinkColor {
+    0%{
+        color: greenyellow;
+    }
+
+    50%{
+        color: whitesmoke; 
+    }
+
+    100% {
+        color: greenyellow;
+    }
+}
+
+.animal-image {
+    width: 300px;
+    border-radius: 50%;
+    transition: transform s;
+}
+.animal-image:hover{
+    transform: rotateY(360deg);
+}
