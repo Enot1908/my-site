@@ -4,7 +4,7 @@ body {
     font-size: 16px;
     line-height: 32px;
     color: #222222;
-    background: linear-gradient(yellow, coral);
+    background: linear-gradient(lightgreen, darkgreen);
 }
 
 .wrapper {
